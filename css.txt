@@ -1,0 +1,128 @@
+
+/* ************* login Css start ************** */
+.login-section{
+    width: 100%;
+    height: auto;
+}
+
+.login-section-inner-parent{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+}
+
+.login-section .login-section-inner-parent .main-heading::after{
+display: none!important;
+}
+
+.login-content-section{
+    max-width: 800px;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    padding: 0 20px;
+
+}
+.login-content-section .login-msg{
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.login-msg-color{
+    color: red;
+}
+
+.login-content-form-section{
+    width: 100%;
+    height: auto;
+}
+
+.customer-number{
+    width: 50%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.login-content-form-section .Sign-in{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid transparent;
+
+}
+
+.submit-section{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox-section{
+    width: 50%;
+    height: auto;
+    padding-top: 5px;
+}
+.signin-section{
+    width: 50%;
+    height: auto;
+}
+/* ************* login Css end ************** */
+
+/* ************* reset password Css start ************** */
+.reset-password-section{
+    width: 100%;
+    height: auto;
+}
+
+.reset-password-section-inner-parent{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+}
+
+.reset-password-section .reset-password-section-inner-parent .main-heading::after{
+display: none!important;
+}
+
+.reset-password-content-section{
+    max-width: 800px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.reset-password-content-area{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+.reset-password-content-section p{
+    font-size: 14px;
+    text-align: start;
+}
+
+.reset-pass{
+    width: 100%!important;
+    margin: 10px 0!important;
+}
+
+.resend{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    padding: 4px 55px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+/* ************* reset password Css end ************** */

@@ -1,0 +1,3158 @@
+/*home heading fonts start devanagari */
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400, 700, 400italic, 700italic, 300italic, 300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400, 700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open + Sans:400, 700, 600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+/* **********home heading fonts end */
+@font-face {
+    font-family: Conv_Coda-Regular;
+    src: url();
+    src: local("Conv_Coda-Regular"), url(./fonts/Coda-Regular.woff) format("woff"), url(./fonts/Coda-Regular.ttf) format("truetype"), url(./fonts/Coda-Regular.svg) format("svg");
+    font-weight: 500;
+    font-style: normal;
+}
+
+.inner-sec-container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+p,h1,h2,h3,h4,h4,h6{
+    padding:0 ;
+    margin: 0;
+}
+.dont-miss-chance-btn{
+    font-family: Raleway,sans-serif;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.sub-heading{
+    text-align: center;
+    font-size: 33px;
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Conv_Coda-Regular;
+    position: relative;
+}
+.sub-heading span{
+    color: #ec1f27;
+}
+ .sub-heading::after{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 32px;
+    background-image: url(https://media.usgreencardoffice.com/assets/assets-public/us-green-card-office/images/heading-border.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* predefined css */
+.navbar .navbar-brand{
+    display: none;
+}
+.top-menu-wrapper{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+.top-menu-inner-parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0px;
+}
+.top-menu-btn-list-wrapper{
+    width: auto;
+    height: 100%
+}
+.top-menu-btn-list-wrapper ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.top-menu-btn-list-wrapper ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.top-menu-btn-list-wrapper ul li a button{
+    margin: 0;
+    padding: 8px 30px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition-duration: .3s;
+    font-weight: bold;
+    transition: all .5s ease;
+    border: none;
+}
+.winner-status{
+    background: linear-gradient(#0555a3, #2676c3);
+}
+.apply-today-btn{
+    background-image: linear-gradient(#88a627, #a1c231);
+    
+}
+.login-btn{
+    background: linear-gradient(#393939, #646464);
+}
+.mobile-header-logo{
+    max-width: 767px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.top-menu-btn-list-wrapper ul li a .winner-status:hover {
+    background: linear-gradient(#88a627, #a1c231);
+}
+.top-menu-btn-list-wrapper ul li a .apply-today-btn:hover {
+    background: linear-gradient(#393939, #646464)!important;
+
+}
+.top-menu-btn-list-wrapper ul li a .login-btn:hover {
+    background: linear-gradient(#88a627, #a1c231);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: rgba(255,255,255,1)!important;
+    transition: .3s;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+   color: #6fc434!important;
+   transition: .3s;
+}
+.navbar-light .navbar-nav .nav-item{
+    color: rgba(255,255,255,1)!important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgba(255,255,255,1)!important;
+}
+/* ***********nav section */
+.nav-section{
+    width: 100%;
+    height:auto;
+    background-color: #0555a3;
+    padding: 5px 0;
+    margin-bottom: 40px;
+}
+.nav-section .navbar{
+    background-color: transparent!important;
+    
+}
+.navbar ul{
+    width: 100%;
+}
+.navbar ul li{
+    margin-left: 30px;
+    position: relative;
+}
+.nav-inner-wrapper{
+    width: 100%;
+    height: auto;
+    border: 1px dashed white;
+    border-right: none;
+    border-left: none;
+    
+}
+.navbar ul li a{
+    margin: 0;
+    padding: 12px 25px;
+    color: #fff;
+    font-size: 16px;
+
+    font-weight: 700;
+    transition-duration: .3s;
+    text-transform: uppercase;
+    
+  
+}
+.navbar-collapse{
+    justify-content: center!important;
+}
+.navbar-light .navbar-nav .nav-link,.navbar-light .navbar-nav .nav-link.active{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #6fc434;
+    text-decoration: none;
+}
+
+.navbar ul li a.logo-header{
+    margin: -78px 0 0 10px;
+    position: absolute;
+    background-position: 100% 51%;
+}
+.navbar ul li a.logo-header img{
+ height: 170px;
+ width: auto;
+}
+
+/* ************************** home section css start******************** */
+.usgco-hero-section{
+    width: 100%;
+    height: auto;
+    padding:  30px 10px 10px 10px;
+   
+}
+.usgco-hero-inner-parent{
+    width: 100%;
+    height: auto;
+}
+.main-heading{
+    text-align: center;
+    font-size: 35px;
+    color: #0555a3;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Conv_Coda-Regular;
+ position: relative;
+}
+.main-heading::after{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 32px;
+    /* background-size: cover; */
+    background-image: url(https://media.usgreencardoffice.com/assets/assets-public/us-green-card-office/images/heading-border.png);
+    background-repeat: no-repeat;
+    /* margin: 0 auto; */
+    background-position: center;
+
+}
+.main-heading span{
+    color: #ec1f27;
+}
+
+.new-live-work-flex-wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.usgco-hero-section .txt-area{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+.usgco-hero-section .txt-area p{
+    margin: 0;
+    font-family: Lato,sans-serif;
+    font-size: 16.5px;
+    text-align: justify;
+    color: #000;
+    line-height: 28px;
+
+}
+
+.dont-miss-chance-btn{
+    font-size: 16px;
+    text-transform: capitalize;
+    border: none;
+    display: block;
+    margin: 20px auto;
+    background-image: url("https://cdn.usgreencardoffice.com/assets/assets-public/us-green-card-office/images/apply-btn-bg.png");
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    color: #000;
+    line-height: 25px;
+    border-radius: 3px;
+    box-shadow: 2px 7px 7px #000;
+
+}
+ .dont-miss-chance-btn .apply-today{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Conv_Coda-Regular;
+    font-size: 25px;
+}
+
+.usgco-hero-section .img-txt-wrapper{
+    width: 45%;
+    height: 100%;
+}
+.usgco-hero-section .img-txt-wrapper p{
+    /* font-size: calc(10px + .5vw); */
+    font-size: 14px;
+    text-align: justify;
+    color: #000;
+    line-height: 28px;
+    margin: 0;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.usgco-hero-section .img-txt-wrapper ul{
+    padding-left: 12px;
+}
+.usgco-hero-section .img-txt-wrapper ul li{
+    padding-bottom: 3px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.usgco-hero-section .img-txt-wrapper .img-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    height: 350px;
+}
+.usgco-hero-section .img-txt-wrapper .img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 10px 10px 5px #e3d6d6;
+}
+.dont-miss-chance-btn:hover{
+    background-image: none!important;
+    background-color: #000!important;
+    color: #fff!important;
+    text-decoration: underline;
+    background-image: none;
+    
+    cursor: pointer;
+    transition: .5s;
+}
+/* ************ */
+
+/* ***************************home section css end*********************** */
+
+/* call to action section css start********** */
+.new-calltoaction-section{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0,0,0,.6);
+    padding:  0px;
+}
+.new-calltoaction-section .inner-section-container{
+    max-width: 900px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.heading-wrapper{
+    width: auto;
+    height: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+.heading-wrapper h1{
+    color: #fff!important;
+    margin: 0;
+    font-family: 'Coda', cursive!important;
+    font-size: 38px;
+}
+.calltoaction-btn-wrapper{
+    width: auto;
+    height: 100%;
+}
+
+
+/* call to action section css end********** */
+
+
+/* professional immegration services section css start */
+.professional-imegration-section{
+    width: 100%;
+    height: auto;
+    background-color: #0655a4;
+    padding: 20px;
+}
+.professional-imegration-section .inner-sec-container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.professional-immegration-inner-parent{
+    width: 100%;
+    height:auto;
+}
+.professional-imegration-section .professional-immegration-inner-parent .sub-heading{
+    color: #fff;
+}
+.professional-immegration-round-cards-wrapper{
+    max-width: 750px;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 10px;
+    font-family: 'Lato', sans-serif!important;
+}
+
+.professional-immegration-round-cards-wrapper .service-card{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.professional-immegration-round-cards-wrapper .service-card:hover p{
+color: #a9cd34;
+transition: .5s;
+}
+.professional-immegration-round-cards-wrapper .service-card .img-area{
+    width: 100%;
+    height: 140px;
+
+}
+.professional-immegration-round-cards-wrapper .service-card .img-area img{
+ width: auto;
+ height: 100%;
+ object-fit: contain;
+ display: block;
+ margin: 0 auto;
+}
+.professional-immegration-round-cards-wrapper .caption-wrapper{
+    width:100%;
+    height: auto;
+    padding: 10px 0px;
+}
+.professional-immegration-round-cards-wrapper .caption-wrapper p{
+ font-size: 20px;
+ text-align: center;
+ margin: 0;
+ color: #fff;
+}
+
+
+/* professional immegration services section css end */
+
+
+/* ************announcement section css start*********** */
+ /* ************ */
+ .announcement-section{
+    width: 100%;
+    height: auto;
+    background-color:#0655a4 ;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+     .annoucement-inner-parent{
+         width: 100%;
+         height: auto;
+         background-color: rgba(255,255,255,.3);
+         border-radius: 10px;
+         padding: 10px;
+         margin-bottom: 20px;
+         color: #fff;
+     }
+     .annoucement-inner-parent h2{
+         text-align: center;
+         font-size: 30px;
+         color: #fff;
+        
+     }
+     .annoucement-inner-parent p{
+         color: #fff;
+         margin: 0;
+         padding: 10px 10px;
+         line-height: 28px;
+         font-size: 15px;
+         text-align: justify;
+         
+     }
+     .announcemnt-links{
+         color: #C00;
+     }
+
+/* *************announcement section css end************* */
+
+/* ***************testimonial section css start */
+.testimonial-section{
+    width: 100%;
+    height: auto;
+    padding:20px ;
+}
+.testimonial-section .inner-sec-container{
+    max-width: 1000px;
+    
+}
+.testimonial-section .testimonial-inner-parent{
+    width: 100%;
+    height: auto;
+}
+.sub-heading{
+    color:#0655a4;
+}
+.testimonial-cards-main-wrapper{
+    width: 100%;
+    height: auto;
+}
+.testimonial-card-wrapper{
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    position: relative;
+    
+}
+.testimonial-content-wrapper{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #9a9a9a;
+    padding-bottom: 60px;
+    max-height: 193px!important;
+    
+}
+.testimonial-card-wrapper .testimonial-content-wrapper p{
+    margin: 0;
+    font-size: 15px;
+    color: #5b4e36;
+    text-align: justify;
+    line-height: 20px;
+}
+.testimonial-card-wrapper .testimonial-quotes {
+    width: 29px;
+    height: 24px;
+    display: inline-block;
+    background-position: 80px;
+}
+.client-description-area{
+    width: 300px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    margin-top: -22px;
+    margin-left: 50px;
+}
+.client-img-area{
+    width: 100px;
+    height: 100%;
+}
+.client-img-area .circle-img{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    border: 4px solid white;
+    overflow: hidden;
+}
+.client-img-area .circle-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.client-intro-wrapper{
+    width: 79%;
+    height: 100%;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.client-intro-wrapper h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.client-intro-wrapper p{
+    color:#C00;
+    font-size: 14px;
+    
+}
+.view-more-testimonial-btn-area{
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.view-more-testimonial-btn-area a{
+    text-decoration: none;
+}
+
+.view-more-testimonial-btn-area a :hover{
+    text-decoration: none;
+}
+
+.view-more-testimonial-btn-area a{
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    background: #05529e;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: .5s;
+    
+}
+.view-more-testimonial-btn-area button:hover{
+    background: #9dbe2f;
+    color: #23527c;
+    text-decoration: underline;
+    transition: .5s;
+}
+/* **************testimonial section css end */
+
+/* *********newsletter section css start********** */
+.newsletter-section{
+    width: 100%;
+    height: auto;
+    background-color: #add136;
+    font-family: 'Lato', sans-serif;
+    
+}
+.newsletter-inner-parent{
+    width: 100%;
+    height: auto;
+    padding: 10px 30px;
+}
+.newsletter-flex-parent{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.msg-icon-area{
+    width: 50px;
+    height: 100%;
+    overflow: hidden;
+}
+.msg-icon-area img{
+    transform:scale(1.1);
+    object-position: 8px;
+    
+}
+.newsletter-txt-area{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.newsletter-txt-area h2{
+    padding: 0;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 20px;
+}
+.newsletter-txt-area p{
+    font-size: 18px;
+}
+.arrow-icon-area{
+    width: 60px;
+    margin: 0px 30px;
+}
+.arrow-icon-area img{
+    object-position: -120px!important;
+    opacity: .3;
+}
+.news-letter-form-wrapper{
+    width: fit-content;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.news-letter-form-wrapper .submit-btn{
+    padding: 4px 10px;
+    background: linear-gradient(
+0deg,#033a71,#05529e) rgba(0,0,0,0);
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+}
+.input-email{
+    margin: 0 10px;
+    font-size: 11px;
+    padding: 6px 5px;
+    border: none;
+    background: #fff;
+    border-radius: 3px;
+    height: 30px;
+    width: 200px;
+}
+/* ********newsletter section css end************ */
+
+/* *********Footer section css start************* */
+.footer-border-img{
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+.footer-section{
+    width: 100;
+    height: auto;
+   padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+    background: url('https://cdn.usgreencardoffice.com/assets/assets-public/us-green-card-office/images/footer-bg.jpg') 0 0/100% auto no-repeat #0655a4;
+}
+.footer-section .inner-sec-container{
+    max-width: 1750px!important;
+}
+.footer-section .col-md-3{
+    padding: 0!important;
+
+}
+.footer-inner-parent{
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+    padding: 20px 50px;
+}
+.footer-col-wrapper{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    position: relative;
+  
+    
+}
+.footer-col-wrapper .footer-col-heading{
+    padding: 0 0 10px;
+    border-bottom: 1px dashed #fff;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.footer-col-wrapper .footer-links-list{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+.footer-col-wrapper .footer-links-list li{
+    padding: 6px 0;
+}
+
+.footer-col-wrapper ul li{
+    padding: 6px 0;
+    color: #fff;
+}
+.footer-col-wrapper ul li a{
+    color: #fff;
+    display: flex;
+    text-decoration: none;
+    margin: 0;
+    padding: 5px 0 0 15px;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    background: url('https://cdn.usgreencardoffice.com/assets/assets-public/us-green-card-office/images/small-arrow.png') 0 75% no-repeat;
+}
+.footer-col-wrapper ul li a:hover{
+    color:  #9dbe2f;
+    transition: .3s;
+}
+.submit-ticket-btn-area{
+    max-width: 200px;
+    height: auto;
+}
+.submit-ticket-btn-area a img{
+    width: 100%;
+    height: 48px;
+}
+.social-icons-footer-list-area{
+    width: 80%;
+    height:auto;
+    margin-top: 20px;
+    display: flex;
+}
+.footer-icon-wrapper{
+    width: 50px;
+    height: 44px;
+    background-image: url('https://www.usgreencardoffice.com/assets/assets-public/us-green-card-office/images/social-icons.png');
+}
+.fb-icon-footer{
+    background-position-x: 50px;
+}
+.footer-bottom-section{
+    width: 100%;
+    height: auto;
+    background-color: #ec222a;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.footer-bottom-section .row{
+    width: 100%;
+}
+.bottom-footer-col-wrapper{
+    width: 100%;
+    height: 100%;
+   
+}
+.bottom-footer-col-wrapper select{
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: #333;
+    width: 180px;
+    font-size: 13px;
+    height: 30px;
+    border-radius: 0;
+    border: none;
+  }
+  .bottom-footer-col-wrapper p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer-col1-wrapper{
+      width: fit-content;
+      height: fit-content;
+  }
+  .bottom-footer-col-wrapper .bottom-center-col-text{
+    text-align: center!important;
+    color: white;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 600;
+    padding: 0px 40px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+
+  .footer-cards-step-wrapper{
+      width: auto;
+      margin: 0 auto;
+      height: auto;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .footer-steps-wrapper{
+      width: 23%;
+      height: 60px;
+      cursor: pointer;
+  }
+  .footer-steps-wrapper img{
+      width: 100%;
+  }
+  .footer-steps-parent{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      
+  }
+  .footer-center-txt a{
+      color:white;
+      text-decoration: underline;
+  }
+  .footer-center-txt a:hover{
+    color:white;
+    text-decoration: none;
+}
+/* *********footer section css end***************** */
+
+
+
+
+/* *********************************INTRODUCTION PAGE CSS START******************************************** */
+
+
+.introduction-page-after-hero-content-area{
+    width: 100%;
+    height: auto;
+}
+.introduction-page-after-hero-content-area p{
+    margin: 0;
+    font-size: 17px;
+    text-align: justify;
+    color: #000;
+    line-height: 28px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.introduction-page-after-hero-content-area .list-intro-heading{
+    margin: 0 0 20px;
+    padding: 0;
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+}
+.introduction-page-after-hero-content-area .intro-content-list{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-left: 12px;
+}
+.introduction-page-after-hero-content-area .intro-content-list li{
+    text-transform: capitalize;
+    margin: 0 0 20px;
+    color: #000;
+    font-size: 17px;
+    line-height: 21px;
+    padding: 0;
+}
+.last-content-intro-page{
+    margin: 0 0 20px;
+    color: #000;
+    font-size: 17px;
+    line-height: 21px!important;
+    padding: 0
+}
+.introduction-page-after-hero-content-area .dont-miss-chance-btn{
+
+    margin: 20px 0;
+   
+}
+
+/* *********************************INTRODUCTION PAGE CSS END************************************************** */
+
+/* ******************************QUALIFYING COUNTRIES SECTION CSS START************************************* */
+.qualifying-countries-section{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+
+}
+.qualifying-countries-inner-parent{
+    width: 100%;
+    height: auto;
+}
+.qualifying-countries-content-section{
+    width: 100%;
+    height: auto;
+}
+.qualifying-countries-content-heading-row{
+    width: 100%;
+    height: auto;
+    background-color: #999 ;
+    padding: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 4px;
+    margin: 10px 0;
+    
+}
+.qualifying-countries-content-heading-row h2{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+/* ******************************QUALIFYING COUNTRIES SECTION CSS END**************************************** */
+
+
+
+/* ***************APPLY TODAY PAGE CSS START************************** */
+.apply-today-top-section{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+}
+.apply-today-inner-parent{
+    width: 100%;
+    height: auto;
+}
+.apply-today-top-section .main-heading{
+    font-size: 25px;
+}
+.apply-today-top-section .main-heading::after{
+    display: none;
+}
+.form-steps-section{
+    max-width: 850px;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 20px;
+    padding: 10px ;
+}
+.steps-flex-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.step-wrapper{
+    width: 20%;
+    height: auto;
+    background-color: #93b12e;
+    padding: 6px 39px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-shadow: 5px 4px 3px #bbb;
+}
+.step-wrapper::after{
+    content: "";
+    position: absolute;
+    right: -24px;
+    top: 3px;
+    border-top: 26px solid transparent;
+    border-bottom: 24px solid transparent;
+    border-left: 25px solid #93b12e;
+}
+
+.other-steps{
+    background-color: #0555a3!important;
+    color: #fff!important;
+}
+.other-steps::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 3px;
+    border-top: 26px solid transparent;
+    border-bottom: 24px solid transparent;
+    border-left: 25px solid #fff;
+}
+.other-steps::after{
+    border-left: 25px solid #0555a3!important;
+}
+.step-wrapper .step-text{
+    width: fit-content;
+    height: auto;
+    text-align: center;
+    
+    display: flex;
+    font-family: Conv_Coda-Regular;
+}
+.step-wrapper .step-text span{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Lato, sans-serif;
+  
+}
+.step-wrapper .step-text p{
+    font-size: 22px;
+}
+/* **** */
+.apply-today-top-txt-area{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.apply-today-top-txt-area p{
+    text-align: center;
+}
+/* ********************apply today form section css************** */
+
+.apply-today-step1-form-section{
+    width: 100%;
+    height: auto;
+    padding:30px 20px;
+   
+
+}
+.apply-today-step1-form-inner-parent{
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f2;
+    border: 1px solid #dae2e6;
+    padding:  20px;
+}
+.form-sec-heading-row{
+    width: 100%;
+    height: auto;
+    background-color: #0555a3;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding:10px 20px;
+    font-family: Conv_Coda-Regular;
+}
+.apply-today-step1-form-inner-parent .step1-form-apply-today{
+    padding: 20px 0px;
+}
+.step1-form-apply-today label{
+    color: #464f5e;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0;
+}
+.step1-form-apply-today label span{
+    color: red;
+}
+.step1-form-apply-today .input-box{
+    width: 100%;
+    border: 1px solid #dae2e6;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.mr2{
+    margin-right: 10px;
+}
+.native-country-input-wrapper-itag-area-parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+.native-country-input-wrapper{
+    width: 90%;
+
+}
+.i-tag-area{
+    width: 10%;
+    height:30px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    cursor: help;
+}
+.i-tag-area:hover ~ .itag-hover-content-area{
+    visibility: visible;
+}
+.itag-hover-content-area{
+    width: 100%;
+
+    height: auto;
+    background-color: rgba(0,0,0,.6);
+    color: whitesmoke;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    visibility: hidden;
+    margin-bottom: 60px;
+}
+.itag-hover-content-area::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    right: 20px;
+    border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 10px solid rgba(0,0,0,.6);
+}
+.itag-hover-content-area p{
+    font-size: 12px;
+}
+.education-detail-form-wrapper{
+    width: 100%;
+    height: auto;
+    border: 1px solid #dae2e6;
+    padding: 20px;
+}
+.education-detail-form-wrapper h3{
+    
+    font-size: 16px;
+    color: #000;
+    margin: 0 0 10px;
+    font-weight: 700;
+
+}
+.step1-form-apply-today .seperate-label{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+        margin-top: 20px;
+}
+.step1-form-apply-today .seperate-label a{
+    text-decoration: none;
+}
+.form-submit-continue-btn-area{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.form-submit-continue-btn-area a{
+    background-color: #93b12e;
+    color: white;
+    padding: 7px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+
+}
+.form-submit-continue-btn-area a:hover{
+    background-color:green ;
+}
+/* ****************APPLY TODAY PAGE CSS END************************** */
+
+
+
+
+
+/* ****************WINNER PAGE CSS START****************** */
+
+.winner-usgco-section{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    text-align: center;
+
+}
+.usgco-winner-inner-parent{
+    width: 100%;
+    height: auto;
+}
+.winner-usgco-section .winner-content-area{
+    width: 100%;
+    height: auto;
+
+}
+.winner-usgco-section .winner-content-area h2{
+    margin: 20px 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Conv_Coda-Regular";
+    font-size: 25px;
+    font-style: normal;
+}
+.winner-usgco-section .winner-content-area p{
+    color: #333;
+    font-family: "Lato",sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    width: 100%;
+}
+
+
+.winner-usgco-section .winner-page-boxes-wrapper-parent{
+    max-width: 950px;
+    margin: 0 auto;
+    height: auto;
+}
+.box-row{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.box-wrapper-winner{
+    width: 15%;
+    height: auto;
+    background-color: #ececec;
+    transition: .5s;
+    cursor: pointer;
+}
+.box-wrapper-winner:hover{
+    background-color: #9dbe2f ;
+    color: #fff;
+    transition: .5s;
+}
+.box-wrapper-winner h3{
+    font-family: "Conv_Coda-Regular";
+    font-size: 20px;
+    margin: 0;
+    padding: 15px 10px ;
+    text-decoration: none;
+    text-align: center;
+}
+    
+/* *************WINNER PAGE CSS END*********************** */
+
+/* ************* CONTACT US PAGE CSS START****************** */
+.contact-page-section{
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+}
+
+.contact-page-section .contact-page-inner-parent{
+    width: 100%;
+    height: auto;
+}
+.contact-page-section .contact-page-sub-heading{
+    font-size: 24px;
+    text-align: left;
+}
+.contact-page-content-wrapper{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+.contact-page-top-txt{
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 21px;
+}
+.contact-col-row-parent{
+    max-width: 1050px;
+    height: auto;
+    margin: 0 auto;
+}
+.contact-col-wrapper{
+    width: 100%;
+    height: auto;
+}
+.contact-col-wrapper h3 {
+    font-size: 20px;
+    padding: 0px;
+    display: inline;
+}
+.contact-col-wrapper h3 span{
+    color: #337ab7;
+}
+.contact-no{
+    font-size: 20px;
+    padding: 0px;
+    display: inline;
+
+}
+.col-wrapper-list-contact{
+    list-style: none;
+    padding: 0;
+}
+.contact-col-after-heading-content-wrapper{
+    padding-left: 20px;
+}
+/* *************CONTACT US PAGE CSS END***************** */
+
+
+
+
+/* ****************green-card-lottery-winner-check-status SECTION CSS START*********************** */
+.green-card-lottery-winner-check-status-section{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px ;
+}
+.green-card-lottery-winner-check-status-inner-parent{
+    width: 100%;
+    height: auto;
+}
+.lottery-winner-check-status-content-wrapper{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+
+}
+.lottery-winner-check-status-content-wrapper p{
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 7px 0px;
+}
+.lottery-winner-check-status-content-wrapper-top-txt{
+    font-size: 18px;
+    max-width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 7px 0px;   
+}
+
+.green-card-lottery-winner-check-status-form-section{
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f2;
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+.lottery-winner-input-wrapper{
+    width: 100%;
+    height: auto;
+}
+.lottery-winner-input-wrapper label{
+    color: #464f5e;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0;
+}
+.lottery-winner-input-wrapper label span{
+    color: red;
+}
+.lottery-winner-input-wrapper .input-box{
+    width: 100%;
+    border: 1px solid #dae2e6;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.form-dull-txt{
+    font-size: 14px;
+    display: block;
+    color: #ccc;
+    margin-top: 10px;
+}
+.green-card-lottery-winner-check-status-form-section .seperate-label{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+        margin-top: 20px;
+}
+.green-card-lottery-winner-check-status-form-section .submit-btn{
+    background-color: #5cb85c;
+    border: none;
+    padding: 7px 15px;
+    color: white;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.green-card-lottery-winner-check-status-form-section .submit-btn:hover{
+    
+    background-color: #449d44;
+    
+}
+/* ****************green-card-lottery-winner-check-status SECTION CSS END********************** */
+
+
+
+
+/* **************apply today step 2 page css start **************************** */
+
+.step2-apply-today-section{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    padding-top: 0;
+}
+.step2-apply-today-inner-parent{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.inner-step2-row-parent{
+    max-width: 640px;
+    margin: 0 auto;
+    height: auto;
+}
+.apply-today-step2-card-wrapper{
+    width: 100%;
+    height: auto;
+    background-color: #ececec;
+    
+    box-shadow: 2px 8px 14px #888;
+}
+.card-heading-step2{
+    width: 100%;
+    height: auto;
+    background-color: #5e5e5e;
+    color: #fff;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    font-family: Conv_Coda-Regular;
+    
+    border-bottom: 1px solid #333333;
+}
+.price-area{
+    width: 100%;
+    height: auto;
+   
+    text-align: center;
+    padding: 10px 0 20px;
+    background: url('https://cdn.usgreencardoffice.com/assets/assets-public/us-green-card-office/images/drop.png') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card2-price-area{
+    background: url('https://cdn.usgreencardoffice.com/assets/assets-public/us-green-card-office/images/green-drop.png') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.price-area p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+}
+.price-area h4{
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    color: #fff;
+    
+}
+.step2-card-content-txt-area{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.step2-card-content-txt-area p{
+    text-align: center;
+}
+.step2-card-order-btn-area{
+    width: 100%;
+    height: auto;
+    padding: 10px ;
+    display: flex;
+    justify-content: center;
+}
+.step2-card-order-btn-area a{
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #fff!important;
+    background: #add136;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.step2-card-order-btn-area a:hover{
+    color: #fff!important;
+    background: #5e5e5e;
+}
+.step2-back-btn-area{
+    width: 100%;
+    height: auto;
+    padding:10px ;
+    display: flex;
+    justify-content: flex-start;
+}
+.step2-back-btn-area a{
+    
+    margin: 0 0 0 0;
+    padding: 10px 20px;
+    background: #ec1f27;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.step2-back-btn-area a:hover{
+    background-color: #9dbe2f ;
+    text-decoration: underline;
+}
+/* **************apply today step 2 page css end **************************** */
+
+/* ****************************step 3********************************* */
+
+.step3-content-section{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.step3-content-section .form-sec-heading-row h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+.additional-offer-table-area-step3{
+    width: 100%;
+    height: auto;
+}
+
+.item-row{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #ececea;
+}
+.item-row h3{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+}
+.item-row h3 span{
+    font-weight: 400;
+}
+.item-row div{
+    height: 100%;
+}
+
+.item-row div:nth-of-type(1) {
+    flex-grow: 1;
+    display: flex;
+    align-items: center ;
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    
+    width: 200px;
+    padding: 20px;
+
+}
+.item-row div:nth-of-type(2) {
+    flex-grow: 1    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ border: 1px solid #dbdbdb;
+}
+.item-row div:nth-of-type(3) {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 31px;
+    border: 1px solid #dbdbdb;
+}
+
+.item-row div:nth-of-type(4) {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dbdbdb;
+}
+.item-row div:nth-of-type(5) {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 31px;
+    border: 1px solid #dbdbdb;
+}
+
+.btn {
+    border: 1px solid #449d44;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    transition: background 600ms ease, color 600ms ease;
+  }
+  
+  input[type=radio].toggle {
+    display: none;
+  }
+  input[type=radio].toggle + label {
+    cursor: pointer;
+    min-width: 60px;
+  }
+  input[type=radio].toggle + label:hover {
+    background: none;
+    color: #1a1a1a;
+  }
+  input[type=radio].toggle + label:after {
+    background: #449d44;
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: left 200ms cubic-bezier(0.77, 0, 0.175, 1);
+    width: 100%;
+    z-index: -1;
+  }
+  input[type=radio].toggle.toggle-left + label {
+    border-right: 0;
+  }
+  input[type=radio].toggle.toggle-left + label:after {
+    left: 100%;
+  }
+  input[type=radio].toggle.toggle-right + label {
+    margin-left: -5px;
+  }
+  input[type=radio].toggle.toggle-right + label:after {
+    left: -100%;
+  }
+  input[type=radio].toggle:checked + label {
+    cursor: default;
+    color: #fff;
+    transition: color 200ms;
+    
+  }
+  input[type=radio].toggle:checked + label:after {
+    left: 0;
+  }
+  input[type=radio].toggle:checked + label {
+    cursor: default;
+    color: #fff;
+    transition: color 200ms;
+    position: relative;
+    z-index: 10;
+}
+.total-order-row{
+    width: 100%;
+    height: auto;
+    background-color: #ececea;
+    display: flex;
+    padding: 20px;
+}
+.order-column1{
+    width: 60%;
+    height: auto;
+    display: flex;
+}
+.order-column1 p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.order-column2{
+    width: 40%;
+    height: auto;
+    text-align: right;
+}
+.visa-form-section{
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+    border: 1px solid #dbdbdb;
+    margin: 20px 0;
+  
+}
+.visa-heading-row{
+    width: 100%;
+    height: auto;
+    background-color:#ececea ;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+}
+.visa-heading-row img{
+    width: auto;
+}
+.visa-form-area-parent{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 40px 20px;
+
+}
+.visa-form-input-full-width{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+.visa-form-label{
+    font-size: 15px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.visa-yes-submit-btn{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding:6px 12px;
+}
+
+.step3-personal-detail-section{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+.personal-detail-row{
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    border: 1px solid #dbdbdb;
+}
+
+.step3-terms-policy-section{
+    width: 100%;
+    height: auto;
+    
+}
+.terms-policy-step3-detail-area{
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    border: 1px solid #dbdddb;
+
+}
+.terms-policy-step3-detail-area p{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.no-visa-form-entities{
+    width: 100%;
+    height: auto;
+    padding: 20px 8px;
+    display: none;
+}
+
+.step3-popup-section{
+    width: 100%;
+    height:100vh;
+    background-color: rgba(0,0,0,.4);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    padding: 40px;
+    transition: .5s ease-in-out;
+display: none;
+transition: .5s ease-in-out;
+}
+.step3-popup-wrapper{
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.step3-popup-sec{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+   
+}
+.popup-heading-area{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-between;
+}
+.popup-heading-area h3{
+    font-size: 18px;
+    margin: 0;
+    line-height: 35px;
+}
+.popup-heading-area a{
+    font-size: 25px;
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+.popup-img-wrapper{
+    width: 100%;
+    height: 300px;
+}
+.popup-img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.popup-transition{
+    transition: .5s ease-in-out;
+}
+.i-tag-area2{
+    cursor: help;
+}
+
+
+.step3-itage-area-content{
+    width: 350px!important;
+    height: fit-content!important;
+    padding: 6px;
+    background-color: rgba(0,0,0,.9);
+    position: absolute;
+    color: white;
+    bottom: 70%;
+    right: 0%;
+    font-size: 13px;
+    visibility: hidden;
+    display: none;
+}
+.i-tag-area2:hover ~ .step3-itage-area-content{
+    visibility: visible;
+    display: block;
+}
+.step3-terms-policy-section a{
+    text-decoration: none;
+}
+
+/* *********************************step3 end************************ */
+/* ********************TESTIMONIAL PAGE CSS START*************************** */
+
+
+
+.testimonial-page-section{
+    width: 100%;
+    height: auto;
+    padding: 20px ;
+}
+.testimonial-page-section .inner-sec-container{
+    max-width:1050px!important;
+
+}
+.testimonials-page-inner-parent{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* .testimonial-page-section .testimonial-content-wrapper{
+    height: 70%!important;
+} */
+
+/* ************************TESTIMONIAL PAGE CSS END************************* */
+
+/* *****************************7 BENEFITS OF HAVING A GREEN CARD CSS START ************************************ */
+
+/* good-benefits-of-having-a-Green-Card-for-United-States start */
+.good-benefits-of-having-a-Green-Card-for-United-States{
+    width: 100%;
+    height: auto;
+}
+
+.good-benefits-of-having-a-Green-Card-for-United-States-inner-parent{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+}
+
+.good-benefits-of-having-a-Green-Card-for-United-States-content-section{
+    width: 100%;
+    height: auto;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+.good-benefits-of-having-a-Green-Card-for-United-States-content-section p{
+    color: #333;
+    text-align: justify;
+    line-height: 28px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+}
+
+.good-benefits-of-having-a-Green-Card-for-United-States-img-section{
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+}
+
+.good-benefits-of-having-a-Green-Card-for-United-States-img-section img{
+    width: 100%;
+    height: auto;
+}
+
+.good-benefits-of-having-a-Green-Card-for-United-States-button-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.good-benefits-of-having-a-Green-Card-for-United-States-content-section h2{
+    color: #337ab7;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+.good-benefits-of-having-a-Green-Card-for-United-States-content-section span{
+    font-size: 14px;
+    font-weight:bolder;
+   
+}
+
+.good-benefits-of-having-a-Green-Card-for-United-States-content-section a{
+    text-decoration: none;
+    color:#337ab7;
+}
+
+.good-benefits-of-having-a-Green-Card-for-United-States-content-section a:hover{
+    text-decoration:underline;
+    color: #23527c;
+}
+/* good-benefits-of-having-a-Green-Card-for-United-States end */
+
+
+/************ biden-and-harris-immigration-policy-new-hopes-for-immigrants start *************/
+
+.biden-and-harris-immigration-policy-new-hopes-for-immigrants{
+    width: 100%;
+    height: auto;
+
+
+}
+
+.biden-and-harris-immigration-policy-new-hopes-for-immigrants-inner-parent{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+}
+
+.biden-and-harris-immigration-policy-new-hopes-for-immigrants-content-section{
+    width: 100%;
+    height: auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.biden-and-harris-immigration-policy-new-hopes-for-immigrants-content-section p{
+    
+    font-size: 17px;
+    line-height:28px;
+    text-align: justify;
+
+
+}
+
+
+.biden-and-harris-immigration-policy-new-hopes-for-immigrants-content-section h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    
+}
+.biden-and-harris-immigration-policy-new-hopes-for-immigrants-content-section-first-right-div{
+    width:100%;
+    height: auto;
+    padding: 0px 10px;
+
+}
+
+.biden-and-harris-immigration-policy-new-hopes-for-immigrants-content-section-first-right-div img{
+    width: 100%;
+
+    height: 430px;
+        margin-bottom: 30px;
+        box-shadow: 10px 10px 5px #e3d6d6;
+}
+
+.biden-and-harris-immigration-policy-new-hopes-for-immigrants-content-section  a{
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.biden-and-harris-immigration-policy-new-hopes-for-immigrants-content-section  a:hover{
+    text-decoration: underline;
+    color: #23527c;
+
+}
+
+.biden-and-harris-immigration-policy-new-hopes-for-immigrants-content-section-second-right-div{
+    width:100%;
+    height: auto;
+    padding: 0px 10px;
+}
+
+.biden-and-harris-immigration-policy-new-hopes-for-immigrants-content-section-second-right-div iframe{
+
+    width: 100%;
+    height: 290px;
+}
+
+
+.biden-and-harris-immigration-policy-new-hopes-for-immigrants-content-section-third-right-div{
+    width:100%;
+    height: auto;
+    padding: 0px 10px;
+    padding-bottom: 30px;
+}
+
+.biden-and-harris-immigration-policy-new-hopes-for-immigrants-content-section-third-right-div img{
+    width: 100%;
+    height: 330px;
+    box-shadow: 10px 10px 5px #e3d6d6;
+}
+
+
+.biden-and-harris-immigration-policy-new-hopes-for-immigrants-content-section span{
+    font-size: 14px;
+    font-weight:bolder;
+}
+
+
+
+
+/************ biden-and-harris-immigration-policy-new-hopes-for-immigrants end *************/
+
+
+/************ frequently-asked-green-card-lottery-questions start *************/
+
+.frequently-asked-green-card-lottery-questions{
+    width: 100%;
+    height: auto;
+}
+
+.frequently-asked-green-card-lottery-questions-inner-parent{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+
+}
+
+.frequently-asked-green-card-lottery-questions-content-section{
+    width: 100%;
+    height: auto;
+
+}
+
+.frequently-asked-green-card-lottery-questions-content-section p{
+
+    color: #333;
+    font-size: 17px;
+    line-height: 21px;
+    font-family: Lato, sans-serif;
+    text-align: justify;
+}
+
+.frequently-asked-green-card-lottery-questions-content-section a{
+    text-decoration: none;
+    color:#337ab7;
+}
+
+.frequently-asked-green-card-lottery-questions-content-section a:hover{
+    text-decoration:underline;
+    color: #23527c;
+}
+
+
+.frequently-asked-green-card-lottery-questions-content-section h4{
+    background: #999;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/************ frequently-asked-green-card-lottery-questions end *************/
+
+
+
+
+
+/************ Joe-bidens-plans-to-move-forward-with-us-Immigration start **************/
+
+.Joe-bidens-plans-to-move-forward-with-us-Immigration{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+  
+}
+
+.Joe-bidens-plans-to-move-forward-with-us-Immigration .Joe-bidens-plans-to-move-forward-with-us-Immigration-inner-parent{
+    width: 100%;
+    height: auto;
+
+}
+
+
+.Joe-bidens-plans-to-move-forward-with-us-Immigration .Joe-bidens-plans-to-move-forward-with-us-Immigration-content-section{
+    width: 100%;
+    height: auto;
+}
+
+
+.Joe-bidens-plans-to-move-forward-with-us-Immigration-content-section p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 28px;
+    font-size: 17px;  
+    text-align: justify;   
+    color: #333;
+}
+
+.Joe-bidens-plans-to-move-forward-with-us-Immigration-bg-video{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Joe-bidens-plans-to-move-forward-with-us-Immigration-content-section h3{
+
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+
+}
+
+.Joe-bidens-plans-to-move-forward-with-us-Immigration-content-section a{
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.Joe-bidens-plans-to-move-forward-with-us-Immigration-content-section a:hover{
+    text-decoration: underline;
+    color: #23527c;
+
+}
+
+.Joe-bidens-plans-to-move-forward-with-us-Immigration-bottom-content{
+    width: 100%;
+    height: auto;
+   
+}
+
+.Joe-bidens-plans-to-move-forward-with-us-Immigration-bottom-content p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.Joe-bidens-plans-to-move-forward-with-us-Immigration-bottom-content span{
+    font-size: 14px;
+    font-weight:bolder;
+}
+
+
+/************ Joe-bidens-plans-to-move-forward-with-us-Immigration end **************/
+
+
+
+/************ our-privacy-policy start *************/
+
+.our-privacy-policy{
+    width: 100%;
+    height: auto;
+
+}
+
+.our-privacy-policy-inner-parent{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+}
+
+.our-privacy-policy-content-section{
+    width: 100%;
+    height: auto;
+}
+
+.our-privacy-policy-content-section p{
+    color: #333;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: justify;
+    font-family: Lato, sans-serif;
+
+}
+
+.our-privacy-policy-content-section a{
+    text-decoration: none;
+    color:#337ab7;
+}
+
+.our-privacy-policy-content-section a:hover{
+    text-decoration:underline;
+    color: #23527c;
+}
+
+.our-privacy-policy-content-section ul{
+    padding: 0;
+    margin-left: 20px;
+}
+
+.our-privacy-policy-content-section ul li{
+    color: #333;
+    font-size: 17px;
+    line-height: 21px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+
+
+/************ our-privacy-policy end *************/
+
+
+
+/*************term and condition css start ***************************/
+.term-and-condition-section{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+}
+
+
+.term-and-condition-section .term-and-condition-inner-parent{
+    width: 100%;
+    height: auto;
+}
+
+.term-and-condition-section .terms-and-condition-heading-section {
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.term-and-condition-section .terms-and-condition-heading-section h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.term-and-condition-section .terms-and-condition-heading-section h3{
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+.term-and-condition-section .terms-and-condition-heading-section h5{
+    font-size: 14px;
+}
+
+
+.term-and-condition-section .high-lighted-heading{
+    width: 100%;
+    height: auto;
+    padding: 7px;
+    background-color: #999;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.term-and-condition-section .high-lighted-heading a{
+    color:#337ab7 ;
+    text-decoration: none;
+    font-size: 18px ;
+}
+
+.term-and-condition-section .high-lighted-heading a:hover{
+    color: #23527c ;
+    text-decoration: underline;
+}
+
+
+.term-and-condition-section .term-and-condition-content-section{
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 21px;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+}
+
+.term-and-condition-section .term-and-condition-content-section .high-lighted-heading h4{
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    padding-left: 3px;
+}
+
+.term-and-condition-section .term-and-condition-content-section p a{
+    text-decoration: none;
+}
+
+.term-and-condition-section .term-and-condition-content-section .high-lighted-heading{
+    width: 100%;
+    height: auto;
+    padding: 7px;
+    background-color: #999;
+    margin:10px 0px;
+    border-radius: 5px;
+}
+
+/*************term and condition css end ***************************/
+
+
+/************us-green-card-office-copyright start **********************/
+
+.us-green-card-office-copyright{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    font-family: Lato, sans-serif;
+}
+
+.us-green-card-office-copyright .us-green-card-office-copyright-inner-parent{
+    width: 100%;
+    height: auto;
+}
+
+.us-green-card-office-copyright .us-green-card-office-copyright-content-section{
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    color: #333;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.us-green-card-office-copyright .us-green-card-office-copyright-image-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+/************us-green-card-office-copyright end **********************/
+
+
+/************ us-green-card-offices-affiliate-program start *************/
+
+.us-green-card-offices-affiliate-program{
+ width: 100%;
+ height: auto;
+ padding: 30px 20px;
+
+}
+
+.us-green-card-offices-affiliate-program-inner-parent{
+    width: 100%;
+    height: auto;
+}
+
+.us-green-card-offices-affiliate-program-content-section{
+    width: 100%;
+    height: auto;
+}
+
+
+.us-green-card-offices-affiliate-program-content-section h3{
+    text-align: center;
+    font-family: "Conv_Coda-Regular";
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.us-green-card-offices-affiliate-program-content-section p{
+    color: #333;
+    font-family:"Lato",sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.us-green-card-offices-affiliate-program-content-section h2{
+    background: #999;
+    border-radius: 5px;
+    color: white;
+    margin: 15px 0px;
+    padding: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+
+.us-green-card-offices-affiliate-program-content-section ul{
+    padding: 0;
+    margin-left: 20px;
+}
+
+.us-green-card-offices-affiliate-program-content-section ul li{
+padding: 5px 0px;
+font-size: 17px;
+
+
+}
+
+.join-our-affiliate-program {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.join-our-affiliate-program a{
+    background: #94b42c;
+    transition: all .5s ease 0s;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    padding: 9px 30px;
+    transition-duration: .3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.us-office-number-area{
+    width: 100%;
+    height: auto;
+}
+
+.us-office-number-area img{
+   margin-top: 8px;
+}
+
+.us-office-number-area p{
+color: #0555a3;
+font-size: 30px;
+margin-bottom: 35px;
+
+}
+
+.us-office-commission-table{
+    width: 100%;
+height: auto;
+padding-top: 20px;
+
+
+}
+
+.us-office-commission-table table{
+    border: 1px solid #d5d5d5;
+    border-radius: 7px 7px 5px 5px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+.list1{
+    text-align: center;
+    background: #f3f3f3;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.us-office-commission-table table td{
+    padding: 3px !important;
+}
+
+/*********** us-green-card-offices-affiliate-program end *************/
+
+/************ what-is-a-green-card start *************/
+
+.what-is-a-green-card{
+    width: 100%;
+    height: auto;
+}
+
+.what-is-a-green-card-inner-parent{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+}
+
+.what-is-a-green-card-content-section{
+    width: 100%;
+    height: auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    text-align: justify;
+}
+
+.what-is-a-green-card-content-section a{
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.what-is-a-green-card-content-section  a:hover{
+    text-decoration: underline;
+    color: #23527c;
+
+}
+
+.what-is-a-green-card-content-section p{
+    
+    line-height: 28px;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.what-is-a-green-card-content-section h3{
+font-size: 24px;
+margin:10px 0px;
+}
+
+.what-is-a-green-card-content-section-first-right-div{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.what-is-a-green-card-content-section-first-right-div img{
+    width: 100%;
+    height: 385px;
+    box-shadow: 10px 10px 5px #e3d6d6; 
+    margin-bottom: 7px;
+}
+
+
+.apply-now-button{
+    background: linear-gradient(#88a627, #a1c231);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 8px 30px;
+    font-weight: bold;
+    color: white;
+    margin: 15px 0px;
+    transition: all .5s ease;
+}
+
+.apply-now-button:hover{
+    background: linear-gradient(#393939, #646464);
+    text-decoration: underline;
+}
+
+.what-is-a-green-card-content-section-second-right-div{
+    width: 100%;
+    height: auto;
+
+}
+
+.what-is-a-green-card-content-section-second-right-div img{
+    width: 100%;
+
+}
+
+.what-is-a-green-card-content-section span{
+    font-size: 14px;
+    font-weight:bolder;
+    padding-left: 20px;
+}
+
+/************ what-is-a-green-card end *************/
+.cookie-section{
+    width: 100%;
+    height: auto;
+    background-color: #141414;
+    padding: 12px 30px 12px 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.cookie-content-area{
+    width: 100%;
+    height: auto;
+}
+.cookie-content-area p{
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.8;
+}
+.cookie-btn-area{
+    width: fit-content;
+    height: fit-content;
+}
+.cookie-btn-area .btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.cookie-btn-area .btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.cookie-btn-area .btn-success:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+.cookie-btn-area .btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.cookie-btn-area .btn-danger:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+.cookie-btns-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+
+
+/* ************* login Css start ************** */
+.login-section{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.login-section-inner-parent{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+}
+
+.login-section .login-section-inner-parent .main-heading::after{
+display: none!important;
+}
+
+.login-content-section{
+    max-width: 800px;
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    padding: 0 20px;
+
+}
+.login-content-section .login-msg{
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.login-msg-color{
+    color: red;
+}
+
+.login-content-form-section{
+    width: 100%;
+    height: auto;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.customer-number{
+    
+   width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 7px;
+    outline: none;
+}
+
+.login-content-form-section .Sign-in{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid transparent;
+
+}
+
+.submit-section{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox-section{
+    height: auto;
+    padding-top: 5px;
+    margin-left: 5px;
+}
+.signin-section{
+       height: auto;
+       margin-right: 5px;
+}
+.input-login-wrapper{
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+.input-login-wrapper svg{
+    width: 20px;
+    position: absolute;
+    right: 11px;
+    top: 11px;
+    fill: gray;
+}
+/* ************* login Css end ************** */
+
+/* ************* reset password Css start ************** */
+.reset-password-section{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.reset-password-section-inner-parent{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+}
+
+.reset-password-section .reset-password-section-inner-parent .main-heading::after{
+display: none!important;
+}
+
+.reset-password-content-section{
+    max-width: 550px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.reset-password-content-area{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.reset-password-content-section p{
+    font-size: 14px;
+    text-align: start;
+}
+
+.reset-pass{
+    width: 100%!important;
+    margin: 10px 0!important;
+}
+
+.resend{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    padding: 4px 55px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+/* ************* reset password Css end ************** */
+
+
+
+
+
+
+/* ******************media query */
+.navbar-light .navbar-toggler:focus{
+    color: none!important;
+    border-color: none!important;
+    border: none!important;
+}
+.navbar-toggler {
+    padding: 0!important;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: none!important;
+    border-radius: 0!important;
+    transition: none!important;
+}
+.navbar-toggler:focus{
+    box-shadow: none!important;
+}
+
+
+
+    @media all and (max-width:575px) and (min-width:320px) {
+        .additional-offer-table-area-step3 .item-row{
+                height: auto!important;
+                flex-direction: column!important;
+                padding: 10px;
+                border-bottom: 3px solid #dbdbdb;
+        }
+        .additional-offer-table-area-step3 .item-row div{
+            width: 100%!important;
+            text-align: center;
+            border: none!important;
+            padding: 5px 0;
+        }
+        .item-row div:nth-of-type(1){
+            justify-content: center!important;
+        }
+        .apply-today-top-section .other-steps{
+            display: none!important;
+        }
+        .apply-today-top-section .step-wrapper {
+            width: 30%;
+        }
+        .apply-today-top-section .steps-flex-wrapper{
+            justify-content: center!important;
+        }
+        .introduction-page-after-hero-content-area {
+            padding: 10px;
+        }
+        .usgco-hero-section .img-txt-wrapper .img-wrapper {
+            height: 210px!important;
+        }
+        .footer-ads-parent{
+            margin-top: 20px;
+        }
+        .footer-border-img{
+            display: none!important;
+        }
+        .testimonial-card-wrapper{
+            margin-top: 30px!important;
+            height: auto!important;
+        }
+        .testimonial-card-wrapper .testimonial-content-wrapper{
+            max-height: fit-content!important;
+        }
+        .mob-margin{
+            margin: 0!important;
+        }
+        .navbar ul li.nav-item{
+            margin: 0!important;
+            border-bottom: 1px solid white!important;
+        }
+        .navbar ul li.nav-item a{
+            font-weight: 500;
+            text-align: center;
+        }
+        .mob-top-center{
+            display: block!important;
+        }
+        .top-menu-btn-list-wrapper ul li{
+            margin-right: 10px!important;
+        }
+        .top-menu-inner-parent{
+            justify-content: center!important;
+        }
+        .navbar .container-fluid{
+            justify-content: center!important;
+        }
+        .winner-usgco-section .winner-page-boxes-wrapper-parent{
+            display: flex!important;
+            flex-direction: row!important;
+        }
+        .winner-usgco-section .winner-page-boxes-wrapper-parent .box-row{
+            flex-direction: column!important;
+        }
+        .box-wrapper-winner{
+            width: 85%!important;
+
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+        .mobile-header-logo{
+            display: flex!important;
+        }
+        .top-menu-btn-list-wrapper .login-btn{
+            margin-top: 20px;
+        }
+        .navbar .navbar-brand{
+            display: block!important;
+            color: #fff!important;
+            font-size: 18px!important;
+        }
+        .web-logo-nav{
+            display: none;
+        }
+        .usgco-hero-section .txt-area {
+
+        width: 100%!important;
+    }
+    .usgco-hero-section .img-txt-wrapper{
+        width: 100%!important;
+    }
+    .new-live-work-flex-wrapper{
+        padding: 20px;
+    }
+    .new-calltoaction-section .inner-section-container{
+        flex-direction: column;
+    }
+    .new-calltoaction-section .inner-section-container .heading-wrapper h1{
+    text-align: center;
+    }
+    .calltoaction-btn-wrapper .dont-miss-chance-btn{
+        margin-top: 5px;
+    }
+    .newsletter-flex-parent{
+        height: auto;
+        flex-direction: column;
+    }
+    .newsletter-flex-parent form{
+        display: flex!important;
+    }
+    .newsletter-flex-parent .msg-icon-area{
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    .arrow-icon-area{
+        display: none;
+    }
+    .newsletter-flex-parent .newsletter-txt-area{
+        display: block;
+        width: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .newsletter-flex-parent .news-letter-form-wrapper {
+        width: auto;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+    .view-more-testimonial-btn-area{
+        margin-top: 50px!important;
+    }
+    }
+
+    @media all and (max-width:767px) and (min-width:576px) {
+        .footer-ads-parent{
+            margin-top: 20px;
+        }
+
+        .footer-border-img{
+            display: none!important;
+        }
+        .mobile-header-logo{
+            display: flex!important;
+        }
+        .mob-margin{
+            margin: 0!important;
+        }
+        .navbar .navbar-brand{
+            display: block!important;
+            color: #fff!important;
+            font-size: 18px!important;
+        }
+        .web-logo-nav{
+            display: none;
+        }
+
+    .newsletter-flex-parent{
+        height: auto;
+        flex-direction: column;
+    }
+    .newsletter-flex-parent .msg-icon-area{
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    .arrow-icon-area{
+        display: none;
+    }
+    .newsletter-flex-parent .newsletter-txt-area{
+        display: block;
+        width: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .newsletter-flex-parent .news-letter-form-wrapper {
+        width: auto;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+        .usgco-hero-section .txt-area {
+
+            width: 100%!important;
+        }
+        .usgco-hero-section .txt-area {
+
+            width: 100%!important;
+        }
+        .usgco-hero-section .img-txt-wrapper {
+            width: 100%;
+            height: 100%;
+            margin-top: 20px;
+        }
+        .usgco-hero-section{
+            padding: 30px 25px 10px 25px!important;
+        }
+        .top-menu-inner-parent{
+            justify-content: center!important;
+        }
+        .navbar-nav ul li{
+            margin-right: 2px!important;
+        }
+        .mob-margin,.nav-item{
+            margin: 0!important;
+            text-align: center;
+            border-bottom: 1px solid white;
+        }
+    }
+
+
+    @media all and (max-width:991px) and (min-width:768px) {
+        .footer-ads-parent{
+            margin-top: 20px;
+        }
+        .footer-border-img{
+            display: none!important;
+        }
+
+        .top-menu-inner-parent{
+            justify-content: center!important;
+        }
+        .mobile-header-logo{
+            display: flex!important;
+        }
+        .mob-margin,.nav-item{
+            margin: 0!important;
+            text-align: center;
+            border-bottom: 1px solid white;
+        }
+        .navbar .navbar-brand{
+            display: block!important;
+            color: #fff!important;
+            font-size: 18px!important;
+        }
+        .web-logo-nav{
+            display: none;
+        }
+        .navbar-nav{
+            justify-content: center!important;
+        }
+        .navbar-nav ul li{
+            margin: 2px!important;
+        }
+        .newsletter-section .input-email{
+            margin: 0!important;
+        }
+        .newsletter-section .msg-icon-area{
+            width: 75px!important;
+        }
+        .newsletter-section .arrow-icon-area{
+            width: 75px!important;
+        }
+        .msg-icon-area img{
+            object-position:6px !important; ;
+        }
+        .usgco-hero-section .txt-area {
+
+            width: 100%!important;
+        }
+        .arrow-icon-area img{
+            object-position: -121px!important;
+        }
+        .usgco-hero-section .img-txt-wrapper {
+            width: 100%;
+            height: 100%;
+            margin-top: 20px;
+        }
+        .usgco-hero-section{
+            padding: 30px 25px 10px 25px!important;
+        }
+        .professional-immegration-round-cards-wrapper .service-card .img-area{
+            height: 110px!important;
+        }
+        .professional-immegration-round-cards-wrapper .caption-wrapper p{
+            font-size: 16px!important;
+
+        }
+        .professional-immegration-round-cards-wrapper{
+            max-width: 78%!important;
+        }
+        .new-calltoaction-section h1{
+            font-size: 35px!important;
+        }
+        .navbar ul li{
+            margin-right: 5px!important;
+        }
+        .navbar-nav ul li{
+            margin-right: 2px!important;
+        }
+    }
+
+    @media all and (max-width:1200px) and (min-width:992px) {
+        .navbar-nav{
+            justify-content: center!important;
+        }
+        .navbar-nav ul li{
+            margin-right: 2px!important;
+        }
+      .top-menu-wrapper{
+          margin-bottom: 40px;
+      }
+
+    }
+
+    @media (min-width: 1100px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+    }
+
+
+
+
